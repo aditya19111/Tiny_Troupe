@@ -193,3 +193,50 @@ Ethan acts: [TALK]
            > respond to a major data breach for a client. It required a lot of coordination with
            > different teams and ensuring that sensitive information was secured while also keeping
            > stakeholders informed about the situation
+
+** Now creatin automated conversation between two individuals **
+
+AISHA & ADITYA:-
+>>> world = TinyWorld("conference Room 1",[aisha,aditya])
+>>> world.run(3)
+──────────────────────────────────────────────────────────────── conference Room 1 step 1 of 3 ─────────────────────────────────────────────────────────────────
+Aisha acts: [DONE] 
+
+Aisha --> Aditya: [CONVERSATION] 
+           > My journey into studying climate change has been quite transformative. I always had a
+           > passion for nature and the environment, which led me to pursue a degree in
+           > environmental science. During my studies, I became increasingly aware of the pressing
+           > issues related to climate change and its impact on our planet. I started volunteering
+           > with local NGOs, which further fueled my desire to make a difference. Eventually, I
+           > began working with research institutions, focusing on developing sustainable solutions
+           > to combat climate change. It's been a fulfilling path, and I feel grateful to
+           > contribute to such an important cause.
+Aditya acts: [THINK] 
+            > Aisha's journey into studying climate change is really inspiring. It's great to see
+            > someone so passionate about the environment and actively working towards sustainable
+            > solutions. I should acknowledge her efforts and maybe share my thoughts on the
+            > importance of data in environmental science.
+Aditya acts: [TALK] 
+            > That's an incredible journey, Aisha! It's inspiring to see how your passion for nature
+            > has led you to make a real impact in the fight against climate change. I believe data
+            > plays a crucial role in developing sustainable solutions. Have you encountered any
+            > interesting data-driven projects in your work?
+Aditya acts: [DONE] 
+
+Aditya --> Aisha: [CONVERSATION] 
+            > I think my favorite part of data engineering is building and optimizing data
+            > pipelines. It's really satisfying to see how efficient workflows can transform raw
+            > data into valuable insights. What about you?
+Aditya --> Aisha: [CONVERSATION] 
+            > One of my favorite games is Civilization. I love the strategy involved in building an
+            > empire and managing resources while competing against other civilizations. It really
+            > challenges my planning and decision-making skills. What about you?
+Aditya --> Aisha: [CONVERSATION] 
+            > That's an incredible journey, Aisha! It's inspiring to see how your passion for nature
+            > has led you to make a real impact in the fight against climate change. I believe data
+            > plays a crucial role in developing sustainable solutions. Have you encountered any
+            > interesting data-driven projects in your work?
+
+ADITYA & ETHAN:-
+
+ETHAN & AISHA:-
