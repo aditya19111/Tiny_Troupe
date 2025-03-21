@@ -104,6 +104,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 AttributeError: 'TinyPerson' object has no attribute 'degine'. Did you mean: 'define'?
 >>> aditya.define("professional_history","Aditya Bhavsar has been in the AI/ML space since 2014, designing and deploying AI-driven solutions across Machine Learning, NLP, Cloud Computing, and Big Data. With expertise in Large Language Models (LLMs), Generative AI, and scalable data workflows, Aditya specializes in building production-ready AI systems and optimizing data-driven decision-making")
+
 >>> aditya.listen_and_act("whats your favourite part in data engineering?")
 USER --> Aditya: [CONVERSATION] 
           > whats your favourite part in data engineering?
@@ -116,5 +117,19 @@ Aditya acts: [TALK]
             > pipelines. It's really satisfying to see how efficient workflows can transform raw
             > data into valuable insights. What about you?
 Aditya acts: [DONE] 
+
+>>> aditya.listen_and_act("Tell me about your favourite game?")
+USER --> Aditya: [CONVERSATION] 
+          > Tell me about your favourite game?
+Aditya acts: [THINK] 
+            > I need to think about my favorite game. I really enjoy strategy games, especially ones
+            > that involve building and resource management. I also love the challenge of competing
+            > against others.
+Aditya acts: [TALK] 
+            > One of my favorite games is Civilization. I love the strategy involved in building an
+            > empire and managing resources while competing against other civilizations. It really
+            > challenges my planning and decision-making skills. What about you?
+Aditya acts: [DONE] 
+
 
 2)
