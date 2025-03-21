@@ -165,7 +165,7 @@ Aisha acts: [TALK]
            > contribute to such an important cause.
 Aisha acts: [DONE] 
 
-Ethan
+Ethan:-
 >>> ethan = TinyPerson("Ethan")
 >>> 
 >>> # Define basic attributes
