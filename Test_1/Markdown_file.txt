@@ -1,4 +1,6 @@
+=================================================================================================================================================
 **First Step Of installing Tiny troupe and checking whether everything is working or not. Also added Lisa as data scientist for testing purpose**
+=================================================================================================================================================
 
 @aditya19111 ➜ /workspaces/Tiny_Troupe (main) $ pip install openai
 Requirement already satisfied: openai in /usr/local/python/3.12.1/lib/python3.12/site-packages (1.67.0)
@@ -91,7 +93,9 @@ Lisa Carter acts: [TALK]
                  > movies in my free time.
 Lisa Carter acts: [DONE] 
 
+=====================================================================================
 ** Now creating new agents/personas and recording the conversation for few of them **
+=====================================================================================
 
 Aditya (Myself)
 >>> from tinytroupe.agent import TinyPerson
@@ -194,7 +198,9 @@ Ethan acts: [TALK]
            > different teams and ensuring that sensitive information was secured while also keeping
            > stakeholders informed about the situation
 
+================================================================
 ** Now creatin automated conversation between two individuals **
+================================================================
 
 AISHA & ADITYA:-
 >>> world = TinyWorld("conference Room 1",[aisha,aditya])
